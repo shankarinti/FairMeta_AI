@@ -1,0 +1,80 @@
+{
+  "record": {
+    "record_id": "90a6b0c1-d6d2-5923-b365-8c8b67360559",
+    "title": "planmap-eu/yutu_radagram_3dmodelling: First release",
+    "description": "<p>No description provided.</p>",
+    "keywords": [],
+    "creators": [
+      {
+        "name": "Luca Penasa",
+        "orcid": "0000-0002-6394-3108",
+        "email": "Geosciences Department, University of Padova"
+      },
+      {
+        "name": "Riccardo Pozzobon",
+        "orcid": "0000-0001-9183-645X",
+        "email": "Geosciences Department, University of Padova"
+      }
+    ],
+    "landing_page": "https://doi.org/10.5281/zenodo.4055214",
+    "access_url": "https://zenodo.org/api/records/4055214/files/planmap-eu/yutu_radagram_3dmodelling-v0.0.1.zip/content",
+    "identifier": "10.5281/zenodo.4055214",
+    "license": "other-open",
+    "format": "ZIP",
+    "provenance": "",
+    "version": "v0.0.1",
+    "publisher": "Zenodo",
+    "funder": "",
+    "issued": "2020-09-28",
+    "modified": "2021-05-10T07:28:53.737135+00:00",
+    "enrichment": {
+      "detected_dois": [
+        "10.5281/zenodo.4055214"
+      ],
+      "detected_handles": [],
+      "detected_urls": [
+        "https://zenodo.org/api/records/4055214/files/planmap-eu/yutu_radagram_3dmodelling-v0.0.1.zip/content"
+      ],
+      "detected_emails": [
+        "Geosciences Department, University of Padova"
+      ],
+      "suggested_keywords": [],
+      "keyword_union": [],
+      "canonical_subjects": []
+    }
+  },
+  "result": {
+    "scores": {
+      "F": 0.75,
+      "A": 0.5,
+      "I": 0.333,
+      "R": 0.5,
+      "total": 0.521
+    },
+    "checks": {
+      "F": {
+        "pid": true,
+        "keywords": false,
+        "landing_page": true,
+        "machine_readable_metadata": true
+      },
+      "A": {
+        "access_url": true,
+        "license_present_and_open": false,
+        "contact_point": true,
+        "format_open": false
+      },
+      "I": {
+        "uses_identifiers": true,
+        "machine_readable_format": false,
+        "vocab_alignment_hint": false
+      },
+      "R": {
+        "clear_license": false,
+        "provenance": false,
+        "versioning": true,
+        "citation_possible": true
+      }
+    }
+  }
+}

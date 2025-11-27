@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/fairmeta/__init__.py
+src/fairmeta/config.py
+src/fairmeta/enrich.py
+src/fairmeta/fair_scoring.py
+src/fairmeta/ingest.py
+src/fairmeta/report.py
+src/fairmeta.egg-info/PKG-INFO
+src/fairmeta.egg-info/SOURCES.txt
+src/fairmeta.egg-info/dependency_links.txt
+src/fairmeta.egg-info/top_level.txt
+src/fairmeta/harvesters/__init__.py
+src/fairmeta/harvesters/ckan.py
+src/fairmeta/harvesters/zenodo.py

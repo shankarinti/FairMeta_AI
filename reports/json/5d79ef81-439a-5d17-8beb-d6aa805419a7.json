@@ -1,0 +1,84 @@
+{
+  "record": {
+    "record_id": "5d79ef81-439a-5d17-8beb-d6aa805419a7",
+    "title": "Cycle Counts DCC",
+    "description": "Bicycle traffic volumes from cycle counters in Dublin city. Bike counter include one Totem counter (Grove Road) and Eco-Multi counters using Zelt Diamond loop in a number of other locations. Locations include: Drumcondra, Charleville Mall, North Strand Rd, Guild Street, Richmond Street and Grove Road. Passing cyclists are counted and logged every hour, 24 hours per day, 7 days per week. Data provided by Dublin City Council and the NTA.",
+    "keywords": [
+      "city centre",
+      "mobility",
+      "traffic-counts",
+      "traffic-management"
+    ],
+    "creators": [
+      {
+        "name": "DCC Transport City Centre Projects",
+        "orcid": null,
+        "email": "opendata@dublincity.ie"
+      }
+    ],
+    "landing_page": "https://data.gov.ie/dataset/dublin-city-centre-cycle-counts",
+    "access_url": "https://data.smartdublin.ie/dataset/d26ce6c0-2e1c-4b72-8fbd-cb9f9cbbc118/resource/b70c2a89-0cb9-4616-b714-d0bb9bc598df/download/cycle-counts-1-jan-7-april-2025.xlsx",
+    "identifier": "d26ce6c0-2e1c-4b72-8fbd-cb9f9cbbc118",
+    "license": "CC-BY-4.0",
+    "format": "XLSX",
+    "provenance": "2022-09-21T18:59:32.748394",
+    "version": "",
+    "publisher": "Dublin City Council",
+    "funder": "",
+    "issued": "2022-09-21T18:59:32.748394",
+    "modified": "2025-06-19T18:33:13.303098",
+    "enrichment": {
+      "detected_dois": [],
+      "detected_handles": [],
+      "detected_urls": [
+        "https://data.gov.ie/dataset/dublin-city-centre-cycle-counts",
+        "https://data.smartdublin.ie/dataset/d26ce6c0-2e1c-4b72-8fbd-cb9f9cbbc118/resource/b70c2a89-0cb9-4616-b714-d0bb9bc598df/download/cycle-counts-1-jan-7-april-2025.xlsx"
+      ],
+      "detected_emails": [
+        "opendata@dublincity.ie"
+      ],
+      "suggested_keywords": [],
+      "keyword_union": [
+        "city centre",
+        "mobility",
+        "traffic-counts",
+        "traffic-management"
+      ],
+      "canonical_subjects": []
+    }
+  },
+  "result": {
+    "scores": {
+      "F": 0.75,
+      "A": 0.75,
+      "I": 0.0,
+      "R": 0.25,
+      "total": 0.438
+    },
+    "checks": {
+      "F": {
+        "pid": false,
+        "keywords": true,
+        "landing_page": true,
+        "machine_readable_metadata": true
+      },
+      "A": {
+        "access_url": true,
+        "license_present_and_open": true,
+        "contact_point": true,
+        "format_open": false
+      },
+      "I": {
+        "uses_identifiers": false,
+        "machine_readable_format": false,
+        "vocab_alignment_hint": false
+      },
+      "R": {
+        "clear_license": true,
+        "provenance": false,
+        "versioning": false,
+        "citation_possible": false
+      }
+    }
+  }
+}
