@@ -1,4 +1,4 @@
-# FAIRMeta AI — End‑to‑End App (Realtime + Nice UI)
+# FAIRMeta AI — End‑to‑End App 
 
 Multi‑page Streamlit UI with live harvesters (Zenodo/CKAN), batch scoring, report browsing,
 side‑by‑side comparison, and an API tester.
@@ -33,15 +33,15 @@ uvicorn api.main:app --reload --port 8010
 
 The extended version of FAIRMeta AI adds several research‑grade components:
 
-- **Advanced NLP enrichment** (page: *🧠 Advanced Metadata*):
+- **Advanced NLP enrichment** (page: * Advanced Metadata*):
   NER, sentiment and lightweight topic modelling over titles + descriptions.
-- **Hybrid recommendation demo** (page: *🎯 Recommendation*):
+- **Hybrid recommendation demo** (page: * Recommendation*):
   TF‑IDF + cosine similarity over enriched metadata, suitable for exploring
   content‑based and hybrid recommendation ideas.
-- **Storage & Documentation console** (page: *📦 Storage & Documentation*):
+- **Storage & Documentation console** (page: * Storage & Documentation*):
   Explains the on‑disk layout (`data/`, `reports/json`, `reports/md`) so the
   app can be integrated into larger pipelines or cloud storage.
-- **Statistics dashboard** (page: *📈 Statistics*):
+- **Statistics dashboard** (page: * Statistics*):
   Aggregates FAIR scores across all reports and visualises mean F/A/I/R values.
 
 These additions are designed to match the dissertation specification while keeping
